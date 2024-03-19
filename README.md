@@ -17,7 +17,7 @@ CRUD para controle de pets.
 git clone https://github.com/Thayllon/caderneta_pets.git
 
 2. **Instalar Dependências:**
-cd controle-vacinas
+cd caderneta_pets
 npm install
 
 3. **Executar o Aplicativo:**
