@@ -1,6 +1,6 @@
-# Controle de Vacinas de Pet
+# Controle de Vacinas
 
-O sistema foi desenvolvido em Angular para o controle eficiente de vacinas de animais de estimação. Com uma interface intuitiva e recursos avançados como filtro e 
+Foi desenvolvido em Angular um CRUD para controle de pets. Com uma interface intuitiva e recursos avançados como filtro e exportação dos dados. 
 
 ## Funcionalidades Principais
 
