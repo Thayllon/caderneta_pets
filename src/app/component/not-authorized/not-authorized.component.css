@@ -1,0 +1,22 @@
+.main {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+img {
+	height: 700px;
+}
+
+.texto {
+	margin-left: -220px;
+}
+
+.titulo {
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+.mensagem {
+	font-size: 16pt;
+}

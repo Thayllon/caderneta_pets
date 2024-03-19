@@ -1,0 +1,14 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+.botoes {
+	display: flex;
+	/* justify-content: space-between; */
+}
+
+mat-form-field {
+	padding-bottom: 10px;
+}

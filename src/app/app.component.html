@@ -1,0 +1,26 @@
+<header>
+	<div class="header">
+		<div class="logo">
+			<a href="/">
+				<img src="../assets/pata.png" alt="">
+			</a>
+			<div class="nome-logo">
+				<p style="margin-bottom: -5px;">Minha</p>
+				<p>Caderneta</p>
+			</div>
+		</div>
+		<div class="login">
+			<button mat-button [matMenuTriggerFor]="menu"><mat-icon>person</mat-icon></button>
+			<mat-menu #menu="matMenu">
+				<button mat-menu-item>Configurações</button>
+				<button mat-menu-item>Sair</button>
+			</mat-menu>
+		</div>
+	</div>
+</header>
+
+<footer>
+	<span class="copyright">Coudy© 2024</span>
+</footer>
+
+<router-outlet class="overflow"></router-outlet>

@@ -1,0 +1,41 @@
+.main {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.titulo {
+	font-size: 35pt;
+	font-weight: 500;
+	padding-top: 25px;
+}
+
+.subTitulo {
+	padding: 35px 0px 15px 0px;
+	font-size: 14pt;
+	font-weight: 500;
+}
+
+.mensagem {
+	padding: 30px 0px 15px 0px;
+	font-size: 20pt;
+	font-weight: 500;
+}
+
+.retorno {
+	padding-top: 10px;
+}
+
+.home {
+	text-decoration: none;
+	color: #dd5f5f;
+}
+
+img {
+	border: 11px solid white;
+	box-shadow: 0px 0px 0em 0.5px #e1e1e1;
+	border-radius: 5px;
+}

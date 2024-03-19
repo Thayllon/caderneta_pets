@@ -1,0 +1,25 @@
+<h2 mat-dialog-title>{{titulo}}</h2>
+<mat-dialog-content>
+	<form #form="ngForm">
+		<div class="form">
+			<mat-form-field>
+				<mat-label>Dono</mat-label>
+				<input matInput placeholder="Digite um nome" [value]="user?.name" ngModel required>
+			</mat-form-field>
+
+			<mat-form-field>
+				<mat-label>Pet</mat-label>
+				<input matInput placeholder="Digite o nome do pet" [value]="user?.namePet" ngModel required>
+			</mat-form-field>
+
+			<mat-form-field>
+				<mat-label>Vacina</mat-label>
+				<input matInput placeholder="Digite uma vacina" [value]="user?.vaccine" ngModel required>
+			</mat-form-field>
+		</div>
+	</form>
+</mat-dialog-content>
+<mat-dialog-actions align="end" class="botoes">
+	<button mat-raised-button mat-dialog-close (click)="onNoClick()">Cancelar</button>
+	<button mat-raised-button (click)="onSaveClick(form.value)" [disabled]="!form" cdkFocusInitial>Salvar</button>
+</mat-dialog-actions>

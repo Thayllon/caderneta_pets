@@ -1,38 +1,27 @@
-# Controle de Vacinas
+# Frontend
 
-Foi desenvolvido em Angular um CRUD para controle de pets. Com uma interface intuitiva e recursos avançados como filtro e exportação dos dados. 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
 
-## Funcionalidades Principais
+## Development server
 
-- **Tela de Login**
-- **Tela de Not Found** 
-- **Tela de Not Authorized** 
-- **Listagem dos Pets:** Essa tela possui paginação, filtro e a opção de exportar a listagem em PDF.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Como Utilizar
+## Code scaffolding
 
-1. **Clonar o Repositório:**
-git clone https://github.com/Thayllon/caderneta_pets.git
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-2. **Instalar Dependências:**
-cd controle-vacinas
-npm install
+## Build
 
-3. **Executar o Aplicativo:**
-ng serve
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+## Running unit tests
 
-4. **Acessar o Aplicativo:**
-Abra o navegador e vá para `http://localhost:4200`.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Contribuição
+## Running end-to-end tests
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias, correções de bugs ou novas funcionalidades.
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Autor
+## Further help
 
-Este projeto foi desenvolvido por [Thayllon Gomes](https://github.com/Thayllon)
-
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
