@@ -1,5 +1,3 @@
-# caderneta_pets
-
 # Controle de Vacinas de Pet
 
 O sistema foi desenvolvido em Angular para o controle eficiente de vacinas de animais de estimação. Com uma interface intuitiva e recursos avançados como filtro e 
