@@ -7,9 +7,7 @@ Foi desenvolvido em Angular um CRUD para controle de pets. Com uma interface int
 - **Tela de Login**
 - **Tela de Not Found** 
 - **Tela de Not Authorized** 
-- **Listagem dos Pets** 
-- **Filtragem Avançada**
-- **Exportação em PDF** 
+- **Listagem dos Pets:** Essa tela possui paginação, filtro e a opção de exportar a listagem em PDF.
 
 ## Como Utilizar
 
