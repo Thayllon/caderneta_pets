@@ -4,9 +4,11 @@ Foi desenvolvido em Angular um CRUD para controle de pets. Com uma interface int
 
 ## Funcionalidades Principais
 
-- **Tela de Login:**
-- **Listagem de Pets** 
-- **Filtragem Avançada:**
+- **Tela de Login**
+- **Tela de Not Found** 
+- **Tela de Not Authorized** 
+- **Listagem dos Pets** 
+- **Filtragem Avançada**
 - **Exportação em PDF** 
 
 ## Como Utilizar
